@@ -8,9 +8,9 @@ Sub Convert_XLS_to_XLSX()
     Dim i As Integer
 
     ' Define the source folder path (where the .xls files are located)
-    sourceFolder = "C:\Users\gtorr\OneDrive\Documents\ESSEDI SRL\Pivot Vecchie"
+    sourceFolder = "Your\Source\Path\e"
     ' Define the destination folder path (where .xlsx files will be saved)
-    destinationFolder = "C:\Users\gtorr\OneDrive\Documents\ESSEDI SRL\Pivot Nuove"
+    destinationFolder = "Your\Destination\Path\"
 
     ' Ensure the folder paths end with a backslash
     If Right(sourceFolder, 1) <> "\" Then sourceFolder = sourceFolder & "\"
