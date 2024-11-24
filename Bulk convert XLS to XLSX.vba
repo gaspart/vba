@@ -8,7 +8,7 @@ Sub Convert_XLS_to_XLSX()
     Dim i As Integer
 
     ' Define the source folder path (where the .xls files are located)
-    sourceFolder = "Your\Source\Path\e"
+    sourceFolder = "Your\Source\Path\"
     ' Define the destination folder path (where .xlsx files will be saved)
     destinationFolder = "Your\Destination\Path\"
 
